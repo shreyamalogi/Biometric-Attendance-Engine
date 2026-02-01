@@ -16,15 +16,14 @@ Our mission was to move facial recognition out of a static script and into a fun
 
 To ensure the system was practical for real-world institutional environments, we engineered **3 specialized processing modes**:
 
-* 
 **Live Feed**: Real-time identification via active webcam streams for immediate classroom logging.
 
 
-* 
+
 **Static Image**: Batch-processing of photographs for post-event verification and archival.
 
 
-* 
+
 **Video Playback**: Asynchronous analysis of recorded footage to register attendance from pre-captured video files.
 
 
@@ -60,7 +59,7 @@ I contributed to the full-cycle development of this project, with primary owners
 ## 🤯 Engineering Challenges & Optimization
 
 * **Latency Mitigation**: We encountered significant processing lag when integrating external IP cameras. We optimized the frame-buffer cycle to maintain real-time performance.
-* 
+
 **State Management**: Orchestrating the logic to switch between live, static, and video inputs without memory leaks required a modular system architecture.
 
 
@@ -79,6 +78,4 @@ By focusing on a user-centric design—creating an interface for both Admins and
 2. **Database**: The system initializes `DataBase.db` on launch using the SQLAlchemy models.
 3. **Run**: Execute `python main.py` and access the dashboard at `localhost:5000`.
 
----
 
-**Would you like me to find some relevant Berlin-based job postings that specifically look for Flask and OpenCV skills to help you start applying?**
